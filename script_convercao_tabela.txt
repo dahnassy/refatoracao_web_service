@@ -1,0 +1,329 @@
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AC' AND categoriasigla = 'CD' ) WHERE `CRO` = 'AC' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AC' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'AC' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AC' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'AC' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AC' AND categoriasigla = 'LB' ) WHERE `CRO` = 'AC' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AC' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'AC' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AC' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'AC' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AC' AND categoriasigla = 'APD' ) WHERE `CRO` = 'AC' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AC' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'AC' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AC') WHERE `CRO` = 'AC' ;
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AL' AND categoriasigla = 'CD' ) WHERE `CRO` = 'AL' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AL' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'AL' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AL' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'AL' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AL' AND categoriasigla = 'LB' ) WHERE `CRO` = 'AL' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AL' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'AL' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AL' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'AL' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AL' AND categoriasigla = 'APD' ) WHERE `CRO` = 'AL' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AL' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'AL' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AL') WHERE `CRO` = 'AL' ;
+
+
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AM' AND categoriasigla = 'CD' ) WHERE `CRO` = 'AM' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AM' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'AM' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AM' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'AM' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AM' AND categoriasigla = 'LB' ) WHERE `CRO` = 'AM' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AM' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'AM' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AM' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'AM' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AM' AND categoriasigla = 'APD' ) WHERE `CRO` = 'AM' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AM' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'AM' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AM') WHERE `CRO` = 'AM' ;
+
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AP' AND categoriasigla = 'CD' ) WHERE `CRO` = 'AP' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AP' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'AP' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AP' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'AP' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AP' AND categoriasigla = 'LB' ) WHERE `CRO` = 'AP' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AP' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'AP' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AP' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'AP' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AP' AND categoriasigla = 'APD' ) WHERE `CRO` = 'AP' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AP' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'AP' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'AP') WHERE `CRO` = 'AP' ;
+
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'BA' AND categoriasigla = 'CD' ) WHERE `CRO` = 'BA' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'BA' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'BA' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'BA' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'BA' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'BA' AND categoriasigla = 'LB' ) WHERE `CRO` = 'BA' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'BA' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'BA' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'BA' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'BA' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'BA' AND categoriasigla = 'APD' ) WHERE `CRO` = 'BA' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'BA' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'BA' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'BA') WHERE `CRO` = 'BA' ;
+
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'CE' AND categoriasigla = 'CD' ) WHERE `CRO` = 'CE' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'CE' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'CE' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'CE' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'CE' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'CE' AND categoriasigla = 'LB' ) WHERE `CRO` = 'CE' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'CE' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'CE' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'CE' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'CE' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'CE' AND categoriasigla = 'APD' ) WHERE `CRO` = 'CE' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'CE' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'CE' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'CE') WHERE `CRO` = 'CE' ;
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'DF' AND categoriasigla = 'CD' ) WHERE `CRO` = 'DF' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'DF' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'DF' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'DF' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'DF' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'DF' AND categoriasigla = 'LB' ) WHERE `CRO` = 'DF' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'DF' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'DF' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'DF' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'DF' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'DF' AND categoriasigla = 'APD' ) WHERE `CRO` = 'DF' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'DF' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'DF' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'DF') WHERE `CRO` = 'DF' ;
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'ES' AND categoriasigla = 'CD' ) WHERE `CRO` = 'ES' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'ES' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'ES' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'ES' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'ES' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'ES' AND categoriasigla = 'LB' ) WHERE `CRO` = 'ES' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'ES' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'ES' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'ES' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'ES' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'ES' AND categoriasigla = 'APD' ) WHERE `CRO` = 'ES' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'ES' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'ES' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'ES') WHERE `CRO` = 'ES' ;
+
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'GO' AND categoriasigla = 'CD' ) WHERE `CRO` = 'GO' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'GO' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'GO' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'GO' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'GO' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'GO' AND categoriasigla = 'LB' ) WHERE `CRO` = 'GO' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'GO' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'GO' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'GO' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'GO' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'GO' AND categoriasigla = 'APD' ) WHERE `CRO` = 'GO' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'GO' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'GO' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'GO') WHERE `CRO` = 'GO' ;
+
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MA' AND categoriasigla = 'CD' ) WHERE `CRO` = 'MA' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MA' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'MA' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MA' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'MA' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MA' AND categoriasigla = 'LB' ) WHERE `CRO` = 'MA' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MA' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'MA' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MA' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'MA' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MA' AND categoriasigla = 'APD' ) WHERE `CRO` = 'MA' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MA' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'MA' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MA') WHERE `CRO` = 'MA' ;
+
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MG' AND categoriasigla = 'CD' ) WHERE `CRO` = 'MG' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MG' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'MG' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MG' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'MG' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MG' AND categoriasigla = 'LB' ) WHERE `CRO` = 'MG' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MG' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'MG' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MG' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'MG' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MG' AND categoriasigla = 'APD' ) WHERE `CRO` = 'MG' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MG' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'MG' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MG') WHERE `CRO` = 'MG' ;
+
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MS' AND categoriasigla = 'CD' ) WHERE `CRO` = 'MS' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MS' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'MS' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MS' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'MS' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MS' AND categoriasigla = 'LB' ) WHERE `CRO` = 'MS' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MS' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'MS' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MS' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'MS' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MS' AND categoriasigla = 'APD' ) WHERE `CRO` = 'MS' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MS' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'MS' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MS') WHERE `CRO` = 'MS' ;
+
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MT' AND categoriasigla = 'CD' ) WHERE `CRO` = 'MT' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MT' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'MT' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MT' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'MT' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MT' AND categoriasigla = 'LB' ) WHERE `CRO` = 'MT' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MT' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'MT' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MT' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'MT' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MT' AND categoriasigla = 'APD' ) WHERE `CRO` = 'MT' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MT' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'MT' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'MT') WHERE `CRO` = 'MT' ;
+
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PA' AND categoriasigla = 'CD' ) WHERE `CRO` = 'PA' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PA' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'PA' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PA' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'PA' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PA' AND categoriasigla = 'LB' ) WHERE `CRO` = 'PA' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PA' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'PA' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PA' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'PA' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PA' AND categoriasigla = 'APD' ) WHERE `CRO` = 'PA' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PA' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'PA' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PA') WHERE `CRO` = 'PA' ;
+
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PB' AND categoriasigla = 'CD' ) WHERE `CRO` = 'PB' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PB' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'PB' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PB' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'PB' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PB' AND categoriasigla = 'LB' ) WHERE `CRO` = 'PB' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PB' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'PB' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PB' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'PB' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PB' AND categoriasigla = 'APD' ) WHERE `CRO` = 'PB' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PB' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'PB' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PB') WHERE `CRO` = 'PB' ;
+
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PE' AND categoriasigla = 'CD' ) WHERE `CRO` = 'PE' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PE' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'PE' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PE' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'PE' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PE' AND categoriasigla = 'LB' ) WHERE `CRO` = 'PE' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PE' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'PE' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PE' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'PE' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PE' AND categoriasigla = 'APD' ) WHERE `CRO` = 'PE' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PE' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'PE' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PE') WHERE `CRO` = 'PE' ;
+
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PI' AND categoriasigla = 'CD' ) WHERE `CRO` = 'PI' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PI' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'PI' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PI' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'PI' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PI' AND categoriasigla = 'LB' ) WHERE `CRO` = 'PI' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PI' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'PI' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PI' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'PI' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PI' AND categoriasigla = 'APD' ) WHERE `CRO` = 'PI' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PI' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'PI' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PI') WHERE `CRO` = 'PI' ;
+
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PR' AND categoriasigla = 'CD' ) WHERE `CRO` = 'PR' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PR' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'PR' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PR' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'PR' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PR' AND categoriasigla = 'LB' ) WHERE `CRO` = 'PR' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PR' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'PR' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PR' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'PR' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PR' AND categoriasigla = 'APD' ) WHERE `CRO` = 'PR' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PR' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'PR' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'PR') WHERE `CRO` = 'PR' ;
+
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RJ' AND categoriasigla = 'CD' ) WHERE `CRO` = 'RJ' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RJ' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'RJ' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RJ' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'RJ' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RJ' AND categoriasigla = 'LB' ) WHERE `CRO` = 'RJ' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RJ' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'RJ' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RJ' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'RJ' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RJ' AND categoriasigla = 'APD' ) WHERE `CRO` = 'RJ' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RJ' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'RJ' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RJ') WHERE `CRO` = 'RJ' ;
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RN' AND categoriasigla = 'CD' ) WHERE `CRO` = 'RN' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RN' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'RN' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RN' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'RN' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RN' AND categoriasigla = 'LB' ) WHERE `CRO` = 'RN' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RN' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'RN' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RN' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'RN' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RN' AND categoriasigla = 'APD' ) WHERE `CRO` = 'RN' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RN' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'RN' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RN') WHERE `CRO` = 'RN' ;
+
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RO' AND categoriasigla = 'CD' ) WHERE `CRO` = 'RO' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RO' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'RO' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RO' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'RO' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RO' AND categoriasigla = 'LB' ) WHERE `CRO` = 'RO' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RO' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'RO' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RO' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'RO' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RO' AND categoriasigla = 'APD' ) WHERE `CRO` = 'RO' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RO' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'RO' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RO') WHERE `CRO` = 'RO' ;
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RR' AND categoriasigla = 'CD' ) WHERE `CRO` = 'RR' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RR' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'RR' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RR' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'RR' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RR' AND categoriasigla = 'LB' ) WHERE `CRO` = 'RR' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RR' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'RR' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RR' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'RR' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RR' AND categoriasigla = 'APD' ) WHERE `CRO` = 'RR' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RR' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'RR' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RR') WHERE `CRO` = 'RR' ;
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RS' AND categoriasigla = 'CD' ) WHERE `CRO` = 'RS' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RS' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'RS' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RS' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'RS' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RS' AND categoriasigla = 'LB' ) WHERE `CRO` = 'RS' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RS' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'RS' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RS' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'RS' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RS' AND categoriasigla = 'APD' ) WHERE `CRO` = 'RS' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RS' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'RS' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'RS') WHERE `CRO` = 'RS' ;
+
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SC' AND categoriasigla = 'CD' ) WHERE `CRO` = 'SC' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SC' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'SC' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SC' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'SC' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SC' AND categoriasigla = 'LB' ) WHERE `CRO` = 'SC' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SC' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'SC' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SC' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'SC' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SC' AND categoriasigla = 'APD' ) WHERE `CRO` = 'SC' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SC' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'SC' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SC') WHERE `CRO` = 'SC' ;
+
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SE' AND categoriasigla = 'CD' ) WHERE `CRO` = 'SE' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SE' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'SE' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SE' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'SE' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SE' AND categoriasigla = 'LB' ) WHERE `CRO` = 'SE' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SE' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'SE' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SE' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'SE' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SE' AND categoriasigla = 'APD' ) WHERE `CRO` = 'SE' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SE' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'SE' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SE') WHERE `CRO` = 'SE' ;
+
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SP' AND categoriasigla = 'CD' ) WHERE `CRO` = 'SP' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SP' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'SP' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SP' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'SP' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SP' AND categoriasigla = 'LB' ) WHERE `CRO` = 'SP' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SP' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'SP' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SP' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'SP' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SP' AND categoriasigla = 'APD' ) WHERE `CRO` = 'SP' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SP' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'SP' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'SP') WHERE `CRO` = 'SP' ;
+
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'TO' AND categoriasigla = 'CD' ) WHERE `CRO` = 'TO' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'TO' AND categoriasigla = 'EPAO' ) WHERE `CRO` = 'TO' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'TO' AND categoriasigla = 'TPD' ) WHERE `CRO` = 'TO' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'TO' AND categoriasigla = 'LB' ) WHERE `CRO` = 'TO' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'TO' AND categoriasigla = 'TSB' ) WHERE `CRO` = 'TO' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'TO' AND categoriasigla = 'ASB' ) WHERE `CRO` = 'TO' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'TO' AND categoriasigla = 'APD' ) WHERE `CRO` = 'TO' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'TO' AND categoriasigla = 'EPO' ) WHERE `CRO` = 'TO' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE cro = 'TO') WHERE `CRO` = 'TO' ;
+
+
+
+UPDATE `sisger02` SET `CD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE categoriasigla = 'CD' ) WHERE `CRO` = 'Brasil' ;
+UPDATE `sisger02` SET `EPAO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE categoriasigla = 'EPAO' ) WHERE `CRO` = 'Brasil' ;
+UPDATE `sisger02` SET `TPD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE categoriasigla = 'TPD' ) WHERE `CRO` = 'Brasil' ;
+UPDATE `sisger02` SET `LB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE categoriasigla = 'LB' ) WHERE `CRO` = 'Brasil' ;
+UPDATE `sisger02` SET `TSB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE categoriasigla = 'TSB' ) WHERE `CRO` = 'Brasil' ;
+UPDATE `sisger02` SET `ASB` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE categoriasigla = 'ASB' ) WHERE `CRO` = 'Brasil' ;
+UPDATE `sisger02` SET `APD` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE categoriasigla = 'APD' ) WHERE `CRO` = 'Brasil' ;
+UPDATE `sisger02` SET `EPO` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice` WHERE categoriasigla = 'EPO' ) WHERE `CRO` = 'Brasil' ;
+UPDATE `sisger02` SET `TOTAL` = ( SELECT COUNT(inscricao) FROM `siscaf_webservice`) WHERE `CRO` = 'Brasil' ;
